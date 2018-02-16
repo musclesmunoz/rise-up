@@ -17,3 +17,8 @@ p {
 body {
  background-color: #ff82dd;
 }
+
+.blue {
+  color: red;
+  text-transform: uppercase;
+}
