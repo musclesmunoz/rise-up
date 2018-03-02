@@ -41,6 +41,74 @@ h4 {
     padding-right: 40px;
 }
 
+h5 {
+  padding-left: 1em;
+  font-size: 60px;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+a {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+h6 {
+  padding-left: 1em;
+  font-size: 60px;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.August img {
+  margin-left: 40px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+a:hover {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+from {
+  transform: translateX(100px);
+  opacity: 0;
+  text-decoration: none;
+}
+
+to {
+  transform: translateX(100px);
+  opacity: .7;
+
+}
+}
+
 p {
   font-size: 25vw;
   font-family: 'Dorsa', sans-serif;
